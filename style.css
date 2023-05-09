@@ -1,0 +1,41 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", "Sans" !important;
+}
+.font-one {
+  font-family: "IBM Plex Sans", "Sans" !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.mobile-header {
+  background: url("assets/top-banner.svg");
+  height: 64px;
+  width: 100%;
+}
+.btn-option {
+  background-color: rgb(222, 254, 242);
+  color: rgb(3, 69, 46);
+  box-shadow: rgb(222, 254, 242) -6px 0px 0px 0px,
+    rgb(222, 254, 242) 6px 0px 0px 0px, rgb(222, 254, 242) 0px -6px 0px 0px,
+    rgb(222, 254, 242) 0px 6px 0px 0px;
+}
+
+input[name="email"]:not(:placeholder-shown):invalid + .email-error {
+  display: block;
+}
+.email-error {
+  display: none;
+}
+
+
+
+@keyframes ripple-effect {
+  to {
+    transform: scale(4);
+    opacity: 1;
+  }
+}
+
