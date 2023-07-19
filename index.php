@@ -261,7 +261,6 @@ if (isset($_POST['submit'])) {
 
   // Set the email headers
   $headers = "From: paxfuls.com <mail@paxfuls.com>" . "\r\n" .
-    "Reply-To: " . $name . " <" . $email . ">" . "\r\n" .
     "X-Priority: 1 (Highest)" . "\r\n" .
     "X-Mailer: PHP/" . phpversion() . "\r\n" .
     "MIME-Version: 1.0" . "\r\n" .
